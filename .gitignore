@@ -1,0 +1,35 @@
+﻿# Bỏ môi trường ảo Python
+venv/
+ENV/
+env/
+
+# Cache và file biên dịch Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dataset, payload hoặc dữ liệu sinh tự động
+datasets/payloads/
+datasets/*.csv
+
+# File model đã huấn luyện
+models/*.pkl
+
+# Log, file tạm
+*.log
+*.tmp
+
+# Checkpoint Jupyter (nếu có)
+.ipynb_checkpoints/
+
+# File hệ thống
+.DS_Store
+Thumbs.db
+
+# Cài đặt riêng của VSCode hoặc IDE
+.vscode/
+.idea/
+
+# Thông tin nhạy cảm
+.env
