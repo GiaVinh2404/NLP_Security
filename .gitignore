@@ -33,3 +33,4 @@ Thumbs.db
 
 # Thông tin nhạy cảm
 .env
+.env/example
